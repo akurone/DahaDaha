@@ -8,9 +8,8 @@ Andrej Karpathy'nin [makemore](https://github.com/karpathy/makemore) projesinden
 
 ## İçerik
 
-1. [Hazırlık](./01/README.md): Kaynaktan aldığımız veriyi temizleyip kullanılabilir hale getireceğiz.
-1. Veri İnceleme: Kullanacağımız veri setini istatistiksel olarak keşfetmeye çalışacağız.
-1. Bigram Modeli: Harflerin birbirini takip etme olasılığını kullanacağız.
+1. [Hazırlık](./01/README.md): Kaynaktan aldığımız veriyi kullanacağımız şekle evirip ön temizlik yapacağız. [Soransında](./01/inceleme.ipynb), bu veri setini istatistiksel olarak keşfetmeye çalışacağız, başka sorunlar bulursak onları da giderip veriyi [nihai](isimler.txt) hale getireceğiz.
+1. [Bigram Modeli](./02/bigram.ipynb): Harflerin birbirini takip etme olasılığını kullanacağız.
 1. Basit Bir Neural Network: Tek katmanlı bir NN ile aynı işi yapacağız.
 1. Karşılaştırma: Bigram ve NN modellerimizi karşılaştıracağız.
 1. Transformer: [Bu](https://arxiv.org/abs/1706.03762) makaledeki modeli _mütevazice_ kullanacağız.

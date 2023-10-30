@@ -37,7 +37,7 @@ _Her!?_ gerçek veri setinde olduğu gibi bazı _anormal_ durumlar var:
 
 ## Temizlik
 
-Neden böyle yaptın sorusuna gerçekten verebileceğim bir [cevap](https://www.youtube.com/watch?v=erEXERGN80o) yok ama şöyle temizledim ve [tam 30.000 isim kaldı](../isimler.txt):
+Neden böyle yaptın sorusuna gerçekten verebileceğim bir [cevap](https://www.youtube.com/watch?v=erEXERGN80o) yok ama şöyle temizledim ve [tam 30.000 isim kaldı](hamTemiz.txt):
 
 * Ayraç içerenleri (ayraçtan 🙃) ayırıp tüm kısımlarını kümeye ekledim.
 * Birden fazla kelimeden oluşanları sildim.

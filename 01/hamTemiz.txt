@@ -7671,6 +7671,7 @@ curunlu
 çuvallı
 cuvelek
 cüztanağılı
+d:ü:çiftliği
 dabakhane
 dabanoğlu
 dabazoğlu
@@ -11940,6 +11941,7 @@ gülsuyu
 gültarla
 gültekin
 gültepe
+ğültepe
 gültepesi
 gülük
 gülükler
@@ -12805,6 +12807,7 @@ halavana
 halbas
 halbaşi
 halefoğlu
+halenzê
 haleplibahçe
 halfeti
 halfettin
@@ -23645,6 +23648,7 @@ sarpıncık
 sarpınkavak
 sarpkaya
 sarplı
+sarpq
 sarpun
 sarsanlar
 sarsığıngöynüğü
