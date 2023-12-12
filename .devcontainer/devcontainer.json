@@ -11,6 +11,7 @@
         "vscode": {
             "extensions": [
                 "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-renderers",
                 "eamodio.gitlens",
                 "davidanson.vscode-markdownlint",
                 "github.copilot"
