@@ -1,0 +1,889 @@
+python makemore.py -i ../isimler.txt -o . --seed 5 --max-steps 5000 > transformer.txt
+{'input_file': '../isimler.txt', 'work_dir': '.', 'resume': False, 'sample_only': False, 'num_workers': 4, 'max_steps': 5000, 'device': 'cpu', 'seed': 5, 'top_k': -1, 'type': 'transformer', 'n_layer': 4, 'n_head': 4, 'n_embd': 64, 'n_embd2': 64, 'batch_size': 32, 'learning_rate': 0.0005, 'weight_decay': 0.01}
+number of examples in the dataset: 29996
+max word length: 30
+number of unique characters in the vocabulary: 29
+vocabulary:
+abcdefghijklmnoprstuvyzçöüğış
+split up the dataset into 28996 training examples and 1000 test examples
+dataset determined that: vocab_size=30, block_size=31
+number of parameters: 0.20M
+model #params: 205888
+step 0 | loss 3.5052 | step time 64.81ms
+step 10 | loss 3.1496 | step time 30.37ms
+step 20 | loss 2.8401 | step time 31.79ms
+step 30 | loss 2.8287 | step time 30.07ms
+step 40 | loss 2.7428 | step time 28.34ms
+step 50 | loss 2.6399 | step time 27.83ms
+step 60 | loss 2.5162 | step time 31.04ms
+step 70 | loss 2.5639 | step time 37.02ms
+step 80 | loss 2.5489 | step time 33.27ms
+step 90 | loss 2.4816 | step time 29.20ms
+step 100 | loss 2.3804 | step time 32.19ms
+step 110 | loss 2.4465 | step time 26.38ms
+step 120 | loss 2.4335 | step time 28.11ms
+step 130 | loss 2.3530 | step time 26.13ms
+step 140 | loss 2.3379 | step time 25.40ms
+step 150 | loss 2.3397 | step time 47.34ms
+step 160 | loss 2.3173 | step time 34.74ms
+step 170 | loss 2.2546 | step time 31.19ms
+step 180 | loss 2.3678 | step time 29.01ms
+step 190 | loss 2.3497 | step time 33.00ms
+step 200 | loss 2.2816 | step time 75.75ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+keyaslat
+haşamula
+karahcı
+güardel
+yudukm
+aduğallıdeklı
+yazeriflikö
+çaraor
+öpkanbereroy
+çirey
+--------------------------------------------------------------------------------
+step 210 | loss 2.2722 | step time 29.81ms
+step 220 | loss 2.2960 | step time 35.53ms
+step 230 | loss 2.3139 | step time 35.76ms
+step 240 | loss 2.1346 | step time 31.58ms
+step 250 | loss 2.2214 | step time 28.08ms
+step 260 | loss 2.2097 | step time 27.03ms
+step 270 | loss 2.1863 | step time 27.62ms
+step 280 | loss 2.3844 | step time 35.25ms
+step 290 | loss 2.1836 | step time 26.65ms
+step 300 | loss 2.1550 | step time 22.22ms
+step 310 | loss 2.2096 | step time 27.82ms
+step 320 | loss 2.1944 | step time 26.39ms
+step 330 | loss 2.1326 | step time 28.71ms
+step 340 | loss 2.2526 | step time 46.24ms
+step 350 | loss 2.1708 | step time 26.19ms
+step 360 | loss 2.1290 | step time 28.19ms
+step 370 | loss 2.2396 | step time 49.60ms
+step 380 | loss 2.2251 | step time 25.49ms
+step 390 | loss 2.1198 | step time 23.51ms
+step 400 | loss 2.2323 | step time 25.13ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+bepiyunağbu
+kuytarmasacı
+kosagözi
+hatlay
+artukımanga
+çey
+bösdem
+aşağıdu
+çuancala
+dekila
+--------------------------------------------------------------------------------
+step 410 | loss 2.1840 | step time 27.22ms
+step 420 | loss 2.2520 | step time 25.42ms
+step 430 | loss 2.1293 | step time 27.57ms
+step 440 | loss 2.1756 | step time 26.28ms
+step 450 | loss 2.1804 | step time 26.18ms
+step 460 | loss 2.1575 | step time 50.29ms
+step 470 | loss 2.1032 | step time 29.12ms
+step 480 | loss 2.1110 | step time 26.90ms
+step 490 | loss 2.1662 | step time 28.65ms
+step 500 | loss 2.2195 | step time 29.36ms
+step 500 train loss: 2.152366876602173 test loss: 2.1486656665802
+test loss 2.1486656665802 is the best so far, saving model to ./model.pt
+step 510 | loss 2.2784 | step time 28.58ms
+step 520 | loss 2.0986 | step time 25.99ms
+step 530 | loss 2.0854 | step time 27.20ms
+step 540 | loss 2.0451 | step time 30.32ms
+step 550 | loss 2.1798 | step time 33.44ms
+step 560 | loss 2.0655 | step time 26.09ms
+step 570 | loss 2.0813 | step time 27.83ms
+step 580 | loss 2.1107 | step time 28.00ms
+step 590 | loss 1.9765 | step time 36.78ms
+step 600 | loss 2.2065 | step time 32.77ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+kamaköy
+kamozlun
+konemlir
+köpçere
+seçinneyen
+alfıpratmık
+kapakonamar
+tınçın
+acıncaş
+kemesit
+--------------------------------------------------------------------------------
+step 610 | loss 2.0427 | step time 31.28ms
+step 620 | loss 2.0838 | step time 29.86ms
+step 630 | loss 2.0568 | step time 30.04ms
+step 640 | loss 2.2607 | step time 29.25ms
+step 650 | loss 2.1144 | step time 26.96ms
+step 660 | loss 2.1659 | step time 50.31ms
+step 670 | loss 2.1750 | step time 36.63ms
+step 680 | loss 2.1397 | step time 46.07ms
+step 690 | loss 2.0896 | step time 40.04ms
+step 700 | loss 2.1221 | step time 43.70ms
+step 710 | loss 2.0404 | step time 42.67ms
+step 720 | loss 2.1049 | step time 49.46ms
+step 730 | loss 2.0496 | step time 29.64ms
+step 740 | loss 1.9747 | step time 29.80ms
+step 750 | loss 1.9917 | step time 30.84ms
+step 760 | loss 2.0173 | step time 31.40ms
+step 770 | loss 2.1145 | step time 31.74ms
+step 780 | loss 1.9832 | step time 29.68ms
+step 790 | loss 2.0043 | step time 32.05ms
+step 800 | loss 2.0878 | step time 30.88ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+ezsbayaır
+kurtukoçlu
+güçükyalı
+açlageçiyle
+parsuşlahaği
+boğlu
+iğimanhtankü
+sölköyük
+alaslıanay
+anbasipağarl
+--------------------------------------------------------------------------------
+step 810 | loss 2.0305 | step time 30.32ms
+step 820 | loss 2.0275 | step time 30.51ms
+step 830 | loss 2.0466 | step time 32.65ms
+step 840 | loss 2.1042 | step time 30.11ms
+step 850 | loss 2.0726 | step time 30.33ms
+step 860 | loss 1.9866 | step time 36.96ms
+step 870 | loss 2.0940 | step time 30.14ms
+step 880 | loss 1.9693 | step time 32.51ms
+step 890 | loss 2.1193 | step time 31.44ms
+step 900 | loss 2.0368 | step time 31.09ms
+step 910 | loss 1.8980 | step time 28.22ms
+step 920 | loss 2.0517 | step time 34.24ms
+step 930 | loss 2.0929 | step time 27.27ms
+step 940 | loss 2.0198 | step time 29.13ms
+step 950 | loss 2.0453 | step time 38.38ms
+step 960 | loss 1.9905 | step time 31.39ms
+step 970 | loss 2.0125 | step time 29.39ms
+step 980 | loss 2.0238 | step time 25.53ms
+step 990 | loss 2.0063 | step time 30.75ms
+step 1000 | loss 1.9601 | step time 29.17ms
+step 1000 train loss: 1.9878398180007935 test loss: 2.008699655532837
+test loss 2.008699655532837 is the best so far, saving model to ./model.pt
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+edibükbaş
+çazala
+gicekiye
+hasarkovu
+çarırkayak
+derilü
+hafolu
+boray
+çuturıkoğu
+yazgöken
+--------------------------------------------------------------------------------
+step 1010 | loss 2.0266 | step time 29.34ms
+step 1020 | loss 2.1768 | step time 32.51ms
+step 1030 | loss 1.9974 | step time 31.39ms
+step 1040 | loss 1.9756 | step time 36.87ms
+step 1050 | loss 1.8584 | step time 39.48ms
+step 1060 | loss 1.9522 | step time 36.54ms
+step 1070 | loss 2.0237 | step time 31.79ms
+step 1080 | loss 1.9389 | step time 29.77ms
+step 1090 | loss 2.0652 | step time 31.20ms
+step 1100 | loss 2.0491 | step time 36.81ms
+step 1110 | loss 1.9655 | step time 31.45ms
+step 1120 | loss 1.9885 | step time 32.81ms
+step 1130 | loss 2.0361 | step time 31.85ms
+step 1140 | loss 1.9675 | step time 30.64ms
+step 1150 | loss 1.9767 | step time 27.07ms
+step 1160 | loss 1.9323 | step time 27.65ms
+step 1170 | loss 1.9260 | step time 28.76ms
+step 1180 | loss 1.9551 | step time 37.60ms
+step 1190 | loss 2.0284 | step time 29.60ms
+step 1200 | loss 2.0703 | step time 30.23ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+kuşbaklar
+yakalıkizall
+kadaburtlu
+deremincer
+yazansı
+açabardere
+muroa
+sanak
+karaçayıl
+bepice
+--------------------------------------------------------------------------------
+step 1210 | loss 1.9512 | step time 38.32ms
+step 1220 | loss 1.8039 | step time 28.88ms
+step 1230 | loss 1.9272 | step time 31.55ms
+step 1240 | loss 2.1167 | step time 29.07ms
+step 1250 | loss 1.9688 | step time 30.05ms
+step 1260 | loss 1.8147 | step time 27.20ms
+step 1270 | loss 1.9399 | step time 30.71ms
+step 1280 | loss 2.1594 | step time 27.19ms
+step 1290 | loss 1.9240 | step time 29.17ms
+step 1300 | loss 1.9249 | step time 26.48ms
+step 1310 | loss 1.9290 | step time 28.21ms
+step 1320 | loss 2.0004 | step time 32.21ms
+step 1330 | loss 1.9402 | step time 30.67ms
+step 1340 | loss 1.9957 | step time 30.88ms
+step 1350 | loss 1.9718 | step time 30.15ms
+step 1360 | loss 1.9537 | step time 32.99ms
+step 1370 | loss 1.8623 | step time 29.83ms
+step 1380 | loss 1.9758 | step time 31.73ms
+step 1390 | loss 1.9810 | step time 31.52ms
+step 1400 | loss 1.8289 | step time 29.24ms
+--------------------------------------------------------------------------------
+2 samples that are in train:
+kurtlu
+hacıoğlu
+0 samples that are in test:
+8 samples that are new:
+ebeytahimin
+dibelliköy
+kayıçlıhümeser
+merdenli
+ayrınağ
+iniköler
+seyey
+kemezbayırı
+--------------------------------------------------------------------------------
+step 1410 | loss 1.9995 | step time 52.21ms
+step 1420 | loss 1.9094 | step time 30.57ms
+step 1430 | loss 1.9097 | step time 27.04ms
+step 1440 | loss 1.9608 | step time 50.84ms
+step 1450 | loss 1.9540 | step time 29.36ms
+step 1460 | loss 2.0074 | step time 35.39ms
+step 1470 | loss 1.9247 | step time 28.99ms
+step 1480 | loss 1.8642 | step time 28.85ms
+step 1490 | loss 2.0253 | step time 30.37ms
+step 1500 | loss 1.9697 | step time 27.89ms
+step 1500 train loss: 1.9268006086349487 test loss: 1.943163275718689
+test loss 1.943163275718689 is the best so far, saving model to ./model.pt
+step 1510 | loss 1.9525 | step time 28.27ms
+step 1520 | loss 2.0872 | step time 38.14ms
+step 1530 | loss 1.9647 | step time 32.13ms
+step 1540 | loss 1.9459 | step time 29.34ms
+step 1550 | loss 1.9394 | step time 40.89ms
+step 1560 | loss 1.9724 | step time 30.10ms
+step 1570 | loss 1.8453 | step time 31.39ms
+step 1580 | loss 1.8471 | step time 31.96ms
+step 1590 | loss 1.9383 | step time 51.77ms
+step 1600 | loss 1.8892 | step time 41.58ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+mahapmetler
+songalı
+ancapet
+ozmalar
+çaylıkdere
+kepabaşlı
+küçüdüzeler
+cagiller
+kayaçutlar
+hamaluteefiği
+--------------------------------------------------------------------------------
+step 1610 | loss 1.9789 | step time 26.90ms
+step 1620 | loss 1.8408 | step time 29.78ms
+step 1630 | loss 1.9523 | step time 29.21ms
+step 1640 | loss 1.8361 | step time 29.43ms
+step 1650 | loss 1.8455 | step time 27.82ms
+step 1660 | loss 1.8846 | step time 31.69ms
+step 1670 | loss 1.9397 | step time 29.93ms
+step 1680 | loss 1.9956 | step time 25.92ms
+step 1690 | loss 1.8792 | step time 34.00ms
+step 1700 | loss 1.9885 | step time 31.57ms
+step 1710 | loss 1.9258 | step time 28.93ms
+step 1720 | loss 1.9643 | step time 31.17ms
+step 1730 | loss 1.9548 | step time 42.01ms
+step 1740 | loss 1.9854 | step time 48.20ms
+step 1750 | loss 1.9383 | step time 43.02ms
+step 1760 | loss 2.0928 | step time 42.25ms
+step 1770 | loss 1.9403 | step time 42.10ms
+step 1780 | loss 1.8375 | step time 47.07ms
+step 1790 | loss 2.0051 | step time 36.04ms
+step 1800 | loss 1.9110 | step time 33.81ms
+--------------------------------------------------------------------------------
+1 samples that are in train:
+ortacı
+0 samples that are in test:
+9 samples that are new:
+lusapaşa
+aksacık
+arpakçamlı
+akbakközjğüu
+köpek
+çisen
+gevmayi
+düğürliyonakayo
+değirlik
+--------------------------------------------------------------------------------
+step 1810 | loss 1.9183 | step time 26.26ms
+step 1820 | loss 1.9509 | step time 33.14ms
+step 1830 | loss 1.8686 | step time 30.13ms
+step 1840 | loss 1.9699 | step time 31.05ms
+step 1850 | loss 1.9301 | step time 31.22ms
+step 1860 | loss 1.9052 | step time 30.39ms
+step 1870 | loss 1.7111 | step time 28.41ms
+step 1880 | loss 1.8638 | step time 27.97ms
+step 1890 | loss 1.9587 | step time 31.79ms
+step 1900 | loss 1.9000 | step time 32.00ms
+step 1910 | loss 1.7897 | step time 34.54ms
+step 1920 | loss 1.9132 | step time 28.75ms
+step 1930 | loss 1.8713 | step time 30.64ms
+step 1940 | loss 2.0005 | step time 25.84ms
+step 1950 | loss 1.8200 | step time 30.38ms
+step 1960 | loss 1.8603 | step time 29.68ms
+step 1970 | loss 1.8192 | step time 30.00ms
+step 1980 | loss 1.9286 | step time 29.75ms
+step 1990 | loss 1.8211 | step time 28.96ms
+step 2000 | loss 1.8373 | step time 29.86ms
+step 2000 train loss: 1.8741111755371094 test loss: 1.9037624597549438
+test loss 1.9037624597549438 is the best so far, saving model to ./model.pt
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+yukarıhapsatı
+karaoğlanı
+günüçeni
+boşk
+küzünceköyüser
+devli
+rekleköy
+yıkaç
+çaysulhasiği
+hazidere
+--------------------------------------------------------------------------------
+step 2010 | loss 1.8626 | step time 36.89ms
+step 2020 | loss 1.9231 | step time 42.73ms
+step 2030 | loss 1.7304 | step time 63.63ms
+step 2040 | loss 1.8699 | step time 34.40ms
+step 2050 | loss 1.9897 | step time 30.59ms
+step 2060 | loss 2.0256 | step time 32.27ms
+step 2070 | loss 1.9266 | step time 38.09ms
+step 2080 | loss 1.7978 | step time 27.50ms
+step 2090 | loss 2.0672 | step time 31.84ms
+step 2100 | loss 2.0802 | step time 31.05ms
+step 2110 | loss 1.8118 | step time 32.66ms
+step 2120 | loss 1.9569 | step time 29.98ms
+step 2130 | loss 1.8631 | step time 40.69ms
+step 2140 | loss 1.9252 | step time 28.63ms
+step 2150 | loss 1.9002 | step time 46.90ms
+step 2160 | loss 1.8386 | step time 40.81ms
+step 2170 | loss 1.8831 | step time 42.32ms
+step 2180 | loss 1.8215 | step time 55.31ms
+step 2190 | loss 1.8979 | step time 30.89ms
+step 2200 | loss 1.8315 | step time 27.91ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+ismabeykacapı
+yıbacık
+tevişvak
+çakırlıarpınar
+yümlüipyun
+zeygenkışlafı
+ağavanlı
+hovevvak
+bağsuğurak
+bıracık
+--------------------------------------------------------------------------------
+step 2210 | loss 1.7467 | step time 33.99ms
+step 2220 | loss 1.7810 | step time 34.12ms
+step 2230 | loss 1.8585 | step time 29.19ms
+step 2240 | loss 1.8779 | step time 27.23ms
+step 2250 | loss 1.9311 | step time 34.14ms
+step 2260 | loss 1.9562 | step time 34.66ms
+step 2270 | loss 1.8503 | step time 37.82ms
+step 2280 | loss 1.9505 | step time 31.95ms
+step 2290 | loss 1.8636 | step time 32.67ms
+step 2300 | loss 1.7185 | step time 31.44ms
+step 2310 | loss 1.9242 | step time 28.94ms
+step 2320 | loss 1.9251 | step time 32.64ms
+step 2330 | loss 1.8077 | step time 31.04ms
+step 2340 | loss 1.7582 | step time 42.24ms
+step 2350 | loss 1.7444 | step time 44.48ms
+step 2360 | loss 2.0005 | step time 33.57ms
+step 2370 | loss 1.9178 | step time 29.58ms
+step 2380 | loss 1.8114 | step time 37.44ms
+step 2390 | loss 1.9389 | step time 34.72ms
+step 2400 | loss 1.9948 | step time 42.24ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+ayvanlı
+kalemi
+arapstozlar
+kumdult
+molmanğan
+rahioğlu
+taşbağade
+enırlı
+medilcek
+yarıdüresi
+--------------------------------------------------------------------------------
+step 2410 | loss 1.9210 | step time 49.34ms
+step 2420 | loss 1.8891 | step time 27.35ms
+step 2430 | loss 1.8285 | step time 31.09ms
+step 2440 | loss 1.6613 | step time 28.65ms
+step 2450 | loss 1.8289 | step time 31.69ms
+step 2460 | loss 1.8739 | step time 29.27ms
+step 2470 | loss 1.8992 | step time 29.76ms
+step 2480 | loss 1.6771 | step time 42.47ms
+step 2490 | loss 1.8099 | step time 26.80ms
+step 2500 | loss 1.7618 | step time 29.47ms
+step 2500 train loss: 1.8685146570205688 test loss: 1.8888790607452393
+test loss 1.8888790607452393 is the best so far, saving model to ./model.pt
+step 2510 | loss 1.7629 | step time 33.94ms
+step 2520 | loss 1.7804 | step time 30.71ms
+step 2530 | loss 1.7371 | step time 29.78ms
+step 2540 | loss 1.8310 | step time 35.63ms
+step 2550 | loss 1.9786 | step time 103.60ms
+step 2560 | loss 1.8596 | step time 51.63ms
+step 2570 | loss 1.8731 | step time 42.07ms
+step 2580 | loss 1.9485 | step time 36.64ms
+step 2590 | loss 1.9407 | step time 35.21ms
+step 2600 | loss 1.8925 | step time 31.97ms
+--------------------------------------------------------------------------------
+2 samples that are in train:
+aydın
+omurca
+0 samples that are in test:
+8 samples that are new:
+cınyave
+firin
+inciçunuk
+selik
+çinikli
+yumanıtzır
+sular
+yanıman
+--------------------------------------------------------------------------------
+step 2610 | loss 1.8553 | step time 26.49ms
+step 2620 | loss 1.9102 | step time 29.70ms
+step 2630 | loss 1.9504 | step time 38.69ms
+step 2640 | loss 1.8873 | step time 30.52ms
+step 2650 | loss 1.8171 | step time 37.00ms
+step 2660 | loss 1.8314 | step time 45.05ms
+step 2670 | loss 1.8682 | step time 39.35ms
+step 2680 | loss 1.8025 | step time 33.25ms
+step 2690 | loss 1.8024 | step time 40.54ms
+step 2700 | loss 1.8316 | step time 40.27ms
+step 2710 | loss 1.9955 | step time 49.98ms
+step 2720 | loss 1.8153 | step time 50.68ms
+step 2730 | loss 1.7897 | step time 34.97ms
+step 2740 | loss 1.7794 | step time 31.22ms
+step 2750 | loss 1.7759 | step time 66.90ms
+step 2760 | loss 1.7822 | step time 87.43ms
+step 2770 | loss 1.7676 | step time 35.83ms
+step 2780 | loss 1.7040 | step time 29.34ms
+step 2790 | loss 1.8319 | step time 30.67ms
+step 2800 | loss 1.9333 | step time 46.70ms
+--------------------------------------------------------------------------------
+1 samples that are in train:
+sarıbey
+0 samples that are in test:
+9 samples that are new:
+erlirli
+edrirteşler
+sinthasız
+ekmendahan
+taşkuyurt
+bahça
+solulu
+haylakle
+evnuş
+--------------------------------------------------------------------------------
+step 2810 | loss 1.9457 | step time 29.47ms
+step 2820 | loss 1.7487 | step time 39.27ms
+step 2830 | loss 1.7927 | step time 29.60ms
+step 2840 | loss 1.8023 | step time 32.70ms
+step 2850 | loss 1.7934 | step time 44.07ms
+step 2860 | loss 1.7308 | step time 53.07ms
+step 2870 | loss 1.8172 | step time 42.49ms
+step 2880 | loss 1.8073 | step time 29.35ms
+step 2890 | loss 1.8332 | step time 29.65ms
+step 2900 | loss 1.9372 | step time 31.51ms
+step 2910 | loss 1.9514 | step time 41.96ms
+step 2920 | loss 1.7163 | step time 47.17ms
+step 2930 | loss 1.7980 | step time 36.90ms
+step 2940 | loss 1.8832 | step time 31.05ms
+step 2950 | loss 1.7777 | step time 32.96ms
+step 2960 | loss 1.8024 | step time 30.30ms
+step 2970 | loss 1.8076 | step time 95.60ms
+step 2980 | loss 1.8161 | step time 32.05ms
+step 2990 | loss 1.8459 | step time 29.91ms
+step 3000 | loss 1.7742 | step time 32.65ms
+step 3000 train loss: 1.8271480798721313 test loss: 1.8555902242660522
+test loss 1.8555902242660522 is the best so far, saving model to ./model.pt
+--------------------------------------------------------------------------------
+1 samples that are in train:
+çataklı
+0 samples that are in test:
+9 samples that are new:
+süllemali
+manzaköy
+alibeyi
+emeni
+göremköy
+dülgüreyurtu
+bovali
+rabura
+boyrulu
+--------------------------------------------------------------------------------
+step 3010 | loss 1.8791 | step time 35.40ms
+step 3020 | loss 1.8720 | step time 26.05ms
+step 3030 | loss 1.7831 | step time 33.85ms
+step 3040 | loss 1.8694 | step time 30.54ms
+step 3050 | loss 1.7575 | step time 46.60ms
+step 3060 | loss 1.8039 | step time 33.62ms
+step 3070 | loss 1.7509 | step time 33.18ms
+step 3080 | loss 1.7275 | step time 33.00ms
+step 3090 | loss 1.7697 | step time 49.81ms
+step 3100 | loss 1.7915 | step time 36.41ms
+step 3110 | loss 1.8107 | step time 34.69ms
+step 3120 | loss 1.8865 | step time 38.15ms
+step 3130 | loss 1.9165 | step time 44.67ms
+step 3140 | loss 1.7229 | step time 35.97ms
+step 3150 | loss 1.8136 | step time 41.07ms
+step 3160 | loss 1.7640 | step time 37.66ms
+step 3170 | loss 1.7633 | step time 35.03ms
+step 3180 | loss 1.6997 | step time 33.15ms
+step 3190 | loss 1.7937 | step time 33.18ms
+step 3200 | loss 1.7999 | step time 37.64ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+harmutlar
+akçabakmetli
+yörşenoğlu
+ilbeöz
+yukarısuduni
+sarıtcıt
+ahmettyeri
+bahbinaş
+öngi
+makalutepe
+--------------------------------------------------------------------------------
+step 3210 | loss 1.9505 | step time 42.32ms
+step 3220 | loss 1.6599 | step time 129.21ms
+step 3230 | loss 1.8830 | step time 110.36ms
+step 3240 | loss 1.9964 | step time 64.14ms
+step 3250 | loss 1.8939 | step time 45.86ms
+step 3260 | loss 1.7953 | step time 44.68ms
+step 3270 | loss 1.8096 | step time 41.79ms
+step 3280 | loss 1.7945 | step time 38.45ms
+step 3290 | loss 1.7594 | step time 67.25ms
+step 3300 | loss 1.7800 | step time 36.27ms
+step 3310 | loss 1.8185 | step time 32.77ms
+step 3320 | loss 1.9865 | step time 34.39ms
+step 3330 | loss 1.7980 | step time 36.68ms
+step 3340 | loss 1.8880 | step time 32.32ms
+step 3350 | loss 1.7058 | step time 48.61ms
+step 3360 | loss 1.7635 | step time 36.54ms
+step 3370 | loss 1.6838 | step time 65.27ms
+step 3380 | loss 1.7574 | step time 38.68ms
+step 3390 | loss 1.7788 | step time 41.94ms
+step 3400 | loss 1.8470 | step time 35.90ms
+--------------------------------------------------------------------------------
+1 samples that are in train:
+uzundere
+0 samples that are in test:
+9 samples that are new:
+adıy
+kurucuh
+yukarısalınsay
+gülyaylası
+aşbabahdüçesiçi
+dinarkon
+mahmamanda
+daracıoban
+bilkışla
+--------------------------------------------------------------------------------
+step 3410 | loss 1.6842 | step time 32.99ms
+step 3420 | loss 1.7446 | step time 33.55ms
+step 3430 | loss 1.6879 | step time 181.43ms
+step 3440 | loss 1.8253 | step time 29.90ms
+step 3450 | loss 1.7062 | step time 29.67ms
+step 3460 | loss 1.7728 | step time 32.91ms
+step 3470 | loss 1.8721 | step time 31.30ms
+step 3480 | loss 1.8921 | step time 32.12ms
+step 3490 | loss 1.9204 | step time 30.06ms
+step 3500 | loss 1.8076 | step time 31.80ms
+step 3500 train loss: 1.809781551361084 test loss: 1.841418981552124
+test loss 1.841418981552124 is the best so far, saving model to ./model.pt
+step 3510 | loss 1.8301 | step time 45.36ms
+step 3520 | loss 1.9036 | step time 31.62ms
+step 3530 | loss 1.6040 | step time 30.56ms
+step 3540 | loss 1.7050 | step time 46.93ms
+step 3550 | loss 1.7070 | step time 52.90ms
+step 3560 | loss 1.8384 | step time 32.51ms
+step 3570 | loss 1.7616 | step time 31.88ms
+step 3580 | loss 1.7444 | step time 30.76ms
+step 3590 | loss 1.8270 | step time 35.85ms
+step 3600 | loss 1.8106 | step time 32.84ms
+--------------------------------------------------------------------------------
+2 samples that are in train:
+karaşlı
+boyat
+0 samples that are in test:
+8 samples that are new:
+bududalı
+dateköy
+erekler
+çökenağak
+davuler
+büytaş
+şahomallı
+şehiroğlu
+--------------------------------------------------------------------------------
+step 3610 | loss 1.9187 | step time 34.27ms
+step 3620 | loss 1.8064 | step time 38.95ms
+step 3630 | loss 1.8013 | step time 32.09ms
+step 3640 | loss 1.7184 | step time 35.50ms
+step 3650 | loss 1.7447 | step time 30.49ms
+step 3660 | loss 1.7405 | step time 36.91ms
+step 3670 | loss 1.8560 | step time 36.34ms
+step 3680 | loss 1.7279 | step time 31.23ms
+step 3690 | loss 1.7033 | step time 33.36ms
+step 3700 | loss 1.8906 | step time 29.86ms
+step 3710 | loss 1.7420 | step time 29.67ms
+step 3720 | loss 1.8834 | step time 31.80ms
+step 3730 | loss 1.8145 | step time 32.23ms
+step 3740 | loss 1.8378 | step time 32.85ms
+step 3750 | loss 1.7842 | step time 33.96ms
+step 3760 | loss 1.7924 | step time 29.36ms
+step 3770 | loss 1.7514 | step time 30.15ms
+step 3780 | loss 1.8792 | step time 26.98ms
+step 3790 | loss 1.7466 | step time 31.08ms
+step 3800 | loss 1.7140 | step time 29.27ms
+--------------------------------------------------------------------------------
+1 samples that are in train:
+balova
+0 samples that are in test:
+9 samples that are new:
+duraçayır
+yorcanevler
+akiçinekler
+yeniipaşa
+artıntepelmi
+alibahçe
+savnık
+lumalarbel
+karacavet
+--------------------------------------------------------------------------------
+step 3810 | loss 1.8504 | step time 29.07ms
+step 3820 | loss 1.8536 | step time 33.57ms
+step 3830 | loss 1.7999 | step time 32.55ms
+step 3840 | loss 1.7408 | step time 29.47ms
+step 3850 | loss 1.6877 | step time 36.92ms
+step 3860 | loss 1.7974 | step time 30.10ms
+step 3870 | loss 1.6752 | step time 31.97ms
+step 3880 | loss 1.6129 | step time 29.79ms
+step 3890 | loss 1.8483 | step time 32.65ms
+step 3900 | loss 1.7278 | step time 30.09ms
+step 3910 | loss 1.6691 | step time 36.45ms
+step 3920 | loss 1.8779 | step time 34.07ms
+step 3930 | loss 1.7220 | step time 32.55ms
+step 3940 | loss 1.8512 | step time 32.65ms
+step 3950 | loss 1.6702 | step time 46.64ms
+step 3960 | loss 1.8773 | step time 66.23ms
+step 3970 | loss 1.6842 | step time 53.48ms
+step 3980 | loss 1.8795 | step time 43.31ms
+step 3990 | loss 1.6966 | step time 33.82ms
+step 4000 | loss 1.7180 | step time 29.67ms
+step 4000 train loss: 1.7763594388961792 test loss: 1.8223975896835327
+test loss 1.8223975896835327 is the best so far, saving model to ./model.pt
+--------------------------------------------------------------------------------
+2 samples that are in train:
+kuyupınar
+bahçeönü
+0 samples that are in test:
+8 samples that are new:
+attaklı
+mağaharlamanyacı
+sırıkbusunu
+gümeş
+kümreçayırı
+abuntaş
+gülbaş
+çosunbağ
+--------------------------------------------------------------------------------
+step 4010 | loss 1.7292 | step time 28.71ms
+step 4020 | loss 1.8702 | step time 32.70ms
+step 4030 | loss 1.8985 | step time 34.73ms
+step 4040 | loss 1.6797 | step time 30.29ms
+step 4050 | loss 1.8550 | step time 32.23ms
+step 4060 | loss 1.8213 | step time 32.19ms
+step 4070 | loss 1.7476 | step time 29.59ms
+step 4080 | loss 1.8115 | step time 32.04ms
+step 4090 | loss 1.7811 | step time 30.23ms
+step 4100 | loss 1.8261 | step time 53.57ms
+step 4110 | loss 1.7836 | step time 28.22ms
+step 4120 | loss 1.6652 | step time 29.98ms
+step 4130 | loss 1.8848 | step time 28.77ms
+step 4140 | loss 1.7529 | step time 30.20ms
+step 4150 | loss 1.6716 | step time 27.07ms
+step 4160 | loss 1.7774 | step time 30.59ms
+step 4170 | loss 1.8051 | step time 43.06ms
+step 4180 | loss 1.8264 | step time 37.09ms
+step 4190 | loss 1.6838 | step time 31.69ms
+step 4200 | loss 1.6638 | step time 28.88ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+örenköprü
+eskiyüzümürlü
+koçkurdüzü
+meşeksız
+çötebiltkidin
+örenharin
+kuğluca
+sekir
+ferikavan
+çamkaviçayır
+--------------------------------------------------------------------------------
+step 4210 | loss 1.8590 | step time 42.99ms
+step 4220 | loss 1.7129 | step time 41.98ms
+step 4230 | loss 1.6728 | step time 51.73ms
+step 4240 | loss 1.7203 | step time 38.50ms
+step 4250 | loss 1.7842 | step time 49.87ms
+step 4260 | loss 1.6906 | step time 44.26ms
+step 4270 | loss 1.8017 | step time 31.29ms
+step 4280 | loss 1.8557 | step time 43.57ms
+step 4290 | loss 1.7859 | step time 34.12ms
+step 4300 | loss 1.8002 | step time 38.40ms
+step 4310 | loss 1.6432 | step time 37.75ms
+step 4320 | loss 1.7333 | step time 33.52ms
+step 4330 | loss 1.6796 | step time 33.59ms
+step 4340 | loss 1.8447 | step time 28.39ms
+step 4350 | loss 1.6458 | step time 32.89ms
+step 4360 | loss 1.7394 | step time 36.80ms
+step 4370 | loss 1.8446 | step time 29.32ms
+step 4380 | loss 1.6499 | step time 32.57ms
+step 4390 | loss 1.7556 | step time 34.98ms
+step 4400 | loss 1.7637 | step time 30.87ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+kuzpurmut
+alayhiz
+iğdamköy
+yağmuşağı
+topmanlı
+yazılık
+burucubadice
+tiftepe
+hacıkerma
+ketmi
+--------------------------------------------------------------------------------
+step 4410 | loss 1.6516 | step time 27.56ms
+step 4420 | loss 1.8382 | step time 31.00ms
+step 4430 | loss 1.6982 | step time 31.91ms
+step 4440 | loss 1.6952 | step time 31.48ms
+step 4450 | loss 1.9531 | step time 33.67ms
+step 4460 | loss 1.7707 | step time 30.86ms
+step 4470 | loss 1.7313 | step time 33.10ms
+step 4480 | loss 1.7605 | step time 30.16ms
+step 4490 | loss 1.7206 | step time 37.15ms
+step 4500 | loss 1.6665 | step time 34.88ms
+step 4500 train loss: 1.7552871704101562 test loss: 1.8134664297103882
+test loss 1.8134664297103882 is the best so far, saving model to ./model.pt
+step 4510 | loss 1.7086 | step time 42.50ms
+step 4520 | loss 1.8486 | step time 31.20ms
+step 4530 | loss 1.7701 | step time 32.41ms
+step 4540 | loss 1.8069 | step time 30.63ms
+step 4550 | loss 1.8088 | step time 39.00ms
+step 4560 | loss 1.7943 | step time 33.05ms
+step 4570 | loss 1.7195 | step time 38.29ms
+step 4580 | loss 1.7533 | step time 29.92ms
+step 4590 | loss 1.7701 | step time 29.23ms
+step 4600 | loss 1.6796 | step time 30.76ms
+--------------------------------------------------------------------------------
+2 samples that are in train:
+uzuntepe
+gaziler
+0 samples that are in test:
+8 samples that are new:
+samburgazi
+gömüşaklı
+kayakarasaaylan
+yonalar
+sıraklıalanlı
+yusufatacı
+köselçamır
+cekipyalar
+--------------------------------------------------------------------------------
+step 4610 | loss 1.7038 | step time 29.79ms
+step 4620 | loss 1.7054 | step time 31.80ms
+step 4630 | loss 1.8108 | step time 31.56ms
+step 4640 | loss 1.7155 | step time 34.03ms
+step 4650 | loss 1.7311 | step time 30.96ms
+step 4660 | loss 1.7527 | step time 26.09ms
+step 4670 | loss 1.8594 | step time 34.23ms
+step 4680 | loss 1.7127 | step time 30.17ms
+step 4690 | loss 1.5935 | step time 30.83ms
+step 4700 | loss 1.8079 | step time 32.98ms
+step 4710 | loss 1.7117 | step time 34.03ms
+step 4720 | loss 1.7504 | step time 34.19ms
+step 4730 | loss 1.6348 | step time 37.94ms
+step 4740 | loss 1.7985 | step time 33.12ms
+step 4750 | loss 1.9242 | step time 36.00ms
+step 4760 | loss 1.6890 | step time 34.71ms
+step 4770 | loss 1.7123 | step time 35.79ms
+step 4780 | loss 1.6192 | step time 35.26ms
+step 4790 | loss 1.6702 | step time 33.06ms
+step 4800 | loss 1.8653 | step time 50.56ms
+--------------------------------------------------------------------------------
+0 samples that are in train:
+0 samples that are in test:
+10 samples that are new:
+keslice
+gübey
+göremoğlu
+çolaksığınç
+evle
+kızılcanlı
+hacıseyitli
+emirkışık
+büyükcümey
+hacıdağ
+--------------------------------------------------------------------------------
+step 4810 | loss 1.7682 | step time 31.88ms
+step 4820 | loss 1.6972 | step time 46.72ms
+step 4830 | loss 1.6753 | step time 36.49ms
+step 4840 | loss 1.6752 | step time 34.65ms
+step 4850 | loss 1.8658 | step time 42.25ms
+step 4860 | loss 1.7249 | step time 32.98ms
+step 4870 | loss 1.6633 | step time 38.81ms
+step 4880 | loss 1.6945 | step time 64.97ms
+step 4890 | loss 1.7390 | step time 29.24ms
+step 4900 | loss 1.6883 | step time 41.49ms
+step 4910 | loss 1.9048 | step time 34.77ms
+step 4920 | loss 1.6795 | step time 33.76ms
+step 4930 | loss 1.7710 | step time 35.15ms
+step 4940 | loss 1.6939 | step time 36.38ms
+step 4950 | loss 1.7781 | step time 33.11ms
+step 4960 | loss 1.7857 | step time 54.64ms
+step 4970 | loss 1.6908 | step time 39.77ms
+step 4980 | loss 1.8982 | step time 45.08ms
+step 4990 | loss 1.6293 | step time 48.04ms
