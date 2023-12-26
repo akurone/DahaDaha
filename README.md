@@ -10,12 +10,11 @@ Temel mecramız [Jupyter Notebook](https://jupyter.org/) ve [Markdown](https://d
 
 ## İçerik
 
-1. [Hazırlık](./01_hazirlik.md): Kaynaktan aldığımız veriyi kullanacağımız şekle evirip ön temizlik yapacağız. [Soransında](./01a_inceleme.ipynb), bu veri setini istatistiksel olarak keşfetmeye çalışacağız, başka sorunlar bulursak onları da giderip veriyi [nihai](isimler.txt) hale getireceğiz.
+1. [Hazırlık](./01_hazirlik.md): Kaynaktan aldığımız veriyi kullanacağımız şekle evirip ön temizlik yapacağız. [Sonrasında](./01a_inceleme.ipynb), bu veri setini istatistiksel olarak keşfetmeye çalışacağız, başka sorunlar bulursak onları da giderip veriyi [nihai](isimler.txt) hale getireceğiz.
 1. [Bigram](./02_bigram.ipynb): Harflerin birbirini takip etme olasılığını kullanacağız. Ve [kaliteye](./02a_kalite.ipynb) bakacağız.
 1. [Basit Bir Neural Network](./03_basitNN.ipynb): olabilecek en basit NN ile aynı işi yapmaya çalışacağız ama önce [nöron nedir](./03_0_neron.ipynb) bakmak gerek.
 1. [MLP](./04_mlp.ipynb): Çok katmanlı mimariye tek katmandan gireceğiz: bunun da bir sebebi var: [disiplin](./04a_disiplin.ipynb).
-1. Transformer: [Bu](https://arxiv.org/abs/1706.03762) makaledeki modeli _mütevazice_ kullanacağız. TODO
-1. Sonuçlar: TODO
+1. [Transformer](./05_transformer.ipynb): Biraz uzun atlama olacak ama günümüzde dil modellemedeki en uzak ufuklara bakacağız.
 
 ## Kodu Çalıştırmak İstersen
 

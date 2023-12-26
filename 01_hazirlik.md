@@ -2,7 +2,7 @@
 
 ## Veri Kaynağı
 
-İçişleri Bakanlığının [bu adreste](https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx) yayınladığı mülki idare bölümleri envanterinden excel formatında dosyaları indirip kullanacağız.
+İçişleri Bakanlığının [bu adreste](https://www.e-icisleri.gov.tr/Anasayfa/MulkiIdariBolumleri.aspx) yayınladığı mülki idare bölümleri envanterinden Excel formatında dosyaları indirip kullanacağız.
 
 ![İçişleri İdare Bölümleri](./.assets/i1.png)
 
